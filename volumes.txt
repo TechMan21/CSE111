@@ -1,0 +1,12 @@
+Date: 2022-01-13, Width: 185, Aspect ratio: 50, Diameter of wheel: 14, Volume of tire: 24.090081969909246 
+Date: 2022-01-13, Width: 205, Aspect ratio: 60, Diameter of wheel: 15, Volume of tire: 39.92449041517438 
+Date: 2022-01-13, Width: 185, Aspect ratio: 50, Diameter of wheel: 14, Volume of tire: 24.09 
+Date: 2022-01-13, Width: 245, Aspect ratio: 16, Diameter of wheel: 20, Volume of tire: 16.51 
+Date: 2022-01-13, Width: 235, Aspect ratio: 20, Diameter of wheel: 14, Volume of tire: 13.97 
+Customer phone number:2088210160  
+Date: 2022-01-13, Width: 255, Aspect ratio: 55, Diameter of wheel: 18, Volume of tire: 67.13 
+Customer phone number:1  
+Date: 2022-01-13, Width: 265, Aspect ratio: 50, Diameter of wheel: 16, Volume of tire: 59.45 
+Customer phone number:0  
+Date: 2022-01-13, Width: 245, Aspect ratio: 45, Diameter of wheel: 20, Volume of tire: 52.46 
+Customer phone number:205648952154  
