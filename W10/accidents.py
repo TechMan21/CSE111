@@ -19,6 +19,7 @@ FATIGUE_COLUMN = 9
 
 
 def main():
+    #add try and exceptions for error outputs
     try:
         # Prompt the user for a filename and open that text file.
         filename = input("Name of file that contains NHTSA data: ")
@@ -27,6 +28,8 @@ def main():
             # Prompt the user for a percentage.
             perc_reduc = float(input(
                 "Percent reduction of texting while driving [0, 100]: "))
+
+                #need to have the program stop and not calculate if the percentage input is under 0 or over 100
             if perc_reduc < 0 or perc_reduc > 100:
                 print('Error: You have entered a percentage that is not between 0 and 100.')
                 print('Please restart the program and enter a valid percentage.')
