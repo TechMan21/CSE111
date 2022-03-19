@@ -1,0 +1,44 @@
+Sites visited:
+
+https://medium.com/geekculture/marvel-vs-dc-data-analysis-in-python-e561cac72358
+^ MCU vs DC data help & how to use code for them, average & high runtimes, 
+
+https://ninza7.blogspot.com/2021/11/marvel-vs-dc-dataset-for-data-analysis.html
+^ MCU vs DC dataset mentioned from previoius Site
+
+https://www.youtube.com/watch?v=afcTZDddAag
+^ how to get an api (dataset) of the entire COMIC DB of MCU from Marve--- but I want movies not comics
+
+https://www.themoviedb.org/talk/600f27830e597b0040335360
+https://developers.themoviedb.org/3/getting-started/introduction
+https://www.themoviedb.org/keyword/180547-marvel-cinematic-universe-mcu/movie?language=en-US
+
+https://github.com/AugustoMarcelo/mcuapi
+^ A guys API for TV shows and Movies of MCU
+^This may be exactly what I am looking for!!!!!!!!!!
+^ https://mcuapi.herokuapp.com/docs/#/Movies/get_api_v1_movies
+    ^ In /api/v1/movies- Change filter "title=Thor" to have it search for movies with that title
+    ^ Another one for TV shows as well
+    ^ I could use the curl module and the link/command shown to let a user give input to search
+        for Marvel movie titles (If my other ideas or too complicated and need something simple like this)
+    ^ Use /api/v1/movies/{movie_id} to choose the  movie_id which is the numbered order by release 
+    ^Also has trailer links- could potentially ask user if they want the link (and give it after asking, if pulling the data isn't too complex)
+
+
+For random integer in range: https://pynative.com/python-random-randrange/
+
+https://curlconverter.com/#python
+https://stackoverflow.com/questions/26000336/execute-curl-command-within-a-python-script
+Used command and module "py -m pip install requests" : https://stackoverflow.com/questions/68832892/why-cant-i-import-requests-in-vs-code
+
+https://stackoverflow.com/questions/64955774/attributeerror-builtin-function-or-method-object-has-no-attribute-randint
+
+
+
+
+
+
+
+
+
+

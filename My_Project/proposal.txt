@@ -1,0 +1,59 @@
+Proposal for a Student Chosen Program
+
+(This is a proposal. All proposals are written with our best knowledge
+at the beginning of a project. As we progress from the beginning to the
+end of a project, we gain more knowledge, and some of the ideas we
+proposed change. This is part of completing any project and is fine.
+However, we still must write a proposal so that our teachers or
+supervisors know what we intend to do. Please answer each of the
+following questions to the best of your knowledge.)
+
+1. What is the title of your program?
+    The MCU (Marvel Cinnematic Universe) Movie (& TV show) Index
+
+2. What real world problem will your program address or help to solve?
+    Rather than searching everywhere on google, looking through many random websites, and
+    potentially spending much time to find what you may be looking for, the MCU Index can help
+    an MCU fan quickly lookup info about the Marvel Universe. They can find out the release timeline,
+    the actual timeline that the MCU goes in, and much more.
+
+3. What will you learn from developing this program?
+    I will learn how to use the coding we have learned and use files and indexes for information storing
+    and use functions to search through information and with user inputs, find the info wanted. 
+
+4. What Python modules will your program use? (Some examples are: csv,
+datetime, functools, matplotlib, math, pandas, pytest, random, requests,
+and tkinter.)
+    It honestly depends on how I may need to store all of my information of the movies. If it ends
+    up being best to store it in a csv, then a csv. Otherwise it might need to be pulled from a .txt.
+    I may also use a random module to make a menu option for the user to get a randomly picked movie
+    of the MCU to watch. I will learn and research of the module(s) I will need to use to accomplish these things.
+    So far it looks like I will be trying to use the requests module as well.
+
+5. Will you separate your Python program into functions that each
+perform a single task?
+    It is highly likely I will use multiple functions for multiple tasks. I think I may use a seperate
+    functions for each menu choice. Also, isn't that the whole purpose of this class is to make us use functions?
+
+
+6. Will you write test functions to test many of your program functions?
+    Is this supposed to be a trick question?? It says in the assignment we will need to. So....
+    I have to. 
+
+(Remember that it's hard to test functions that get user input and print
+output. It's easy to test functions that don't get user input and don't
+print output but instead have parameters and return a result. Therefore,
+you should write most of your program functions to have parameters and
+return a result.)
+    ^ Yeah...that might get a bit messy and tricky....
+
+    Student Side note: After some future research and potential realization of the work that 
+    will be needed to accomplish this...subject/entire proposal and project may change. 
+
+    This sounds much more complex than what is mentioned in the ideas section or even ideas from
+    the given websites. If this is supposed to be a project over the next few weeks...why do they
+    all sound like they would be short and somewhat easy?
+
+    Other potential ideas:
+    -Youtube video downloader (is that not illegal?-suggested on website)
+    - Class Code Definer (CSE111= Programming with Functions)
