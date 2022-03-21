@@ -7,7 +7,6 @@
 
 from random import random
 from random import randint
-from urllib import response
 #import requests
 import pip._vendor.requests 
 first_choice = 0
@@ -49,8 +48,8 @@ def random_movie():
     }
 
     response1 = pip._vendor.requests.get(f'https://mcuapi.herokuapp.com/api/v1/movies/{rand_int}', headers=headers)
-    print(response1)
-    #requests is not working right-light pytest. Trying pip blah blah. local variables are having errors.
+    print(    #requests is not working right-light pytest. Trying pip blah blah. local variables are having errors.
+response1)
 
 
     
