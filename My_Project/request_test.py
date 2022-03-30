@@ -1,4 +1,4 @@
-from random import random
+import random
 import json
 import pip._vendor.requests 
 
@@ -10,9 +10,11 @@ def random_movie():
     headers = {
         'accept': 'application/json',
     }
-
-    response1 = pip._vendor.requests.get(f'https://mcuapi.herokuapp.com/api/v1/movies/{5}', headers=headers)
+    random_integer = random.randint(0, 27)
+    response1 = pip._vendor.requests.get(f'https://mcuapi.herokuapp.com/api/v1/movies/{random_integer}', headers=headers)
     json_data = json.loads(response1.text)
-    print(json_data)
+    print(json_data["title"])
+    # for dictionary in json_data:
+    #     print(dictionary)
 
 random_movie()
