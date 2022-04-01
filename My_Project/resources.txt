@@ -43,6 +43,7 @@ https://thispointer.com/python-4-ways-to-print-items-of-a-dictionary-line-by-lin
 https://www.pythonpool.com/remove-quotes-from-string-python/
 https://miguendes.me/3-ways-to-test-api-client-applications-in-python#1-testing-the-api-calls-using-mocks
 https://stackoverflow.com/questions/67697668/how-to-write-a-unit-test-code-for-functions-which-make-api-requests-to-web
+https://www.guru99.com/type-isinstance-python.html#3
 
 Had help from Brother Birch multiple times to figure out errors and to understand how I can do or redo my functions
 Quickly looked at like 6+ sites to see if any of them would make sense on how I can test my print_TV_search()- most of them were stackoverflow

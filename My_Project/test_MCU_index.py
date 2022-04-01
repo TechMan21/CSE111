@@ -33,9 +33,25 @@ def test_movie_search():
     assert type(movie_search(title_search="iron")) == dict
     assert type(movie_search(title_search="thor")) == dict
     assert type(movie_search(title_search="avenger")) == dict
+    assert type(movie_search(title_search="man")) == dict
+    assert type(movie_search(title_search="marvel")) == dict
+    assert type(movie_search(title_search="the")) == dict
+    assert type(movie_search(title_search="ant")) == dict
+    assert type(movie_search(title_search="wasp")) == dict
+    assert type(movie_search(title_search="galaxy")) == dict
+    assert type(movie_search(title_search="The first")) == dict
+    assert type(movie_search(title_search="")) == dict
+    # ^ This assert searches with a space as the title, 
+    # and will still return something becuase some of the titles in the list and have a space in them
 
-
+    
 def test_TV_search():
     assert type(TV_search(title_search2='loki')) == dict
     assert type(TV_search(title_search2='marvel')) == dict
-    assert type(TV_search(title_search2='moon')) == dict
+    assert type(TV_search(title_search2='wh')) == dict
+    assert type(TV_search(title_search2='at')) == dict
+    assert type(TV_search(title_search2='rv')) == dict
+    assert type(TV_search(title_search2='on')) == dict
+    assert type(TV_search(title_search2='')) == dict
+    # ^ This assert searches with a space as the title,
+    #  and will still return something becuase "Ms. Marvel" is in the list and has a space in it

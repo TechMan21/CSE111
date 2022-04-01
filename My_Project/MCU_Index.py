@@ -29,7 +29,7 @@ def user_input_menu():
         while True:
             try:
                 first_choice = int(input("Please select an option: ")) 
-                
+
             except ValueError:
                 print("Please select a valid option.")
             break
@@ -125,7 +125,16 @@ def movie_search(title_search):
     #print(f"The Marvel movie you searched for is: '{title_search}' ")
 
 def print_movie_search(json_data):
-    try:    
+    if json_data["data"] == [] and IndexError:
+        print("Title not found. Please try a different one.")
+        print()
+        print('''
+        Current amount of movies in API currently holds 35 titles
+        and may not have all Movies included.
+        Note: API includes some movies that are to come out soon in 2022 & 2023.''')
+        print()
+    else:
+            
         # print(f'''
         # Movie: {json_data["title"]}
         # Release Date: {json_data["release_date"]}''')
@@ -140,6 +149,7 @@ def print_movie_search(json_data):
         #     for key, value in p_info:
         #         #print(key + ':', value)
         #         print(value)
+
         print(f'''
         ---First Result: {json_data["data"][0]["title"]}---''')
         print()
@@ -163,26 +173,12 @@ def print_movie_search(json_data):
         print("Third results details: ")
     
         pprint.pprint(json_data["data"][2])
-        #print(json_data) /n
-        #print("Results in proper method", '[%s]'%', '.join(map(str, json_data)))
-        # search_return_list = json_data
-        # search_return_list.replace("")
+    #print(json_data) /n
+    #print("Results in proper method", '[%s]'%', '.join(map(str, json_data)))
+    # search_return_list = json_data
+    # search_return_list.replace("")
 
-    except (TypeError, KeyError) as error:
-        # The Error "KeyError: 'title' will pop up if the search result comes back empty-
-        #  meaning the title was not found in the API. For example, the user could search "bee" 
-        # but there is no title for both movie and TV that has "bee" in it. This exception will help
-        # output to the user that their search did not work. 
-        print("Title not found. Please try a different one.")
-        print()
-        print('''
-        Current amount of movies in API currently holds 35 titles
-        and may not have all Movies included.
-        Note: API includes some movies that are to come out soon in 2023.''')
-        print()
-    except IndexError as error:
-        print("These are all the results for this search (less than three available).")
-
+    
 #Menu choice #4- Search for a TV show by title
 def TV_search_input():
     #Get input from user on which movie they would like to search for
