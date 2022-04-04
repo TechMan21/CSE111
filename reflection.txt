@@ -1,0 +1,28 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+    A: Once instance may be doing the sentences.py program. That was many lists and indexes which the further
+    we got into it, the harder it got. However, we were able to create random (functional) sentences each time we
+    ran the program.
+
+
+
+2. In your judgment, what is the value of test functions?
+    A: They are fairly helpful. They can run multiple inputs/vairbales into the
+     function to see if an error will get pulled. No one wants errors after thinking they are done with their code.
+
+
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+    A: When a or my own program spits out an error, I first examine what the error is. If it is more simple
+    like "SyntaxError" then I will look at the line it points out and look for a mistake that may have been made.
+    If it is an error I do not understand I may quickly google it and see what it relates to so I can understand
+    what to look for. I then may use the debugger and follow a vairbale or item that may be causing the error and
+    see where it goes wrong.If part of the problem was that figuring out my error was harder because I ran multiple
+    (new) funtions at once, then maybe I can try to just make and run one function at a time. Otherwise, be a bit
+    careful to not use a ton of variables so I do not make the program confusing.
+
+
